@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming | Instinct Skills</title>
+    <meta name="description" content="Mira los streams en vivo de Instinct Skills y nuestros jugadores.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html#home">
+                <img src="images/logo.png" alt="Instinct Skills" class="logo-img">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Inicio</a></li>
+            <li><a href="index.html#about">Equipo</a></li>
+            <li><a href="index.html#roster">Roster</a></li>
+            <li><a href="index.html#contact">Contacto</a></li>
+            <li><a href="index.html#sponsors">Partners</a></li>
+            <li><a href="streaming.html" class="active">Streaming</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="https://x.com/InstinctSkiIIs?t=hYxFiqqAWqtx6piHvBcwcg&s=09"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/instinctskillscl?utm_source=qr&igsh=MTh2OGdjZWNrYjdxdg=="><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://discord.gg/gdd8NXq57Y"><i class="fab fa-discord"></i></a>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Streaming Page Content -->
+    <div class="streaming-page">
+        <div class="container">
+
+            <!-- Main Channel -->
+            <div class="stream-main-container">
+                <h2 class="section-title">STREAM <span class="highlight">OFICIAL</span></h2>
+                <div class="main-stream-wrapper">
+                    <!-- Replace 'channel=instinctskills' with actual team channel if specific, or use a featured player -->
+                    <iframe
+                        src="https://player.twitch.tv/?channel=valorant_la&parent=instinctskills.com&parent=localhost&parent=127.0.0.1"
+                        allowfullscreen="true" scrolling="no" height="100%" width="100%"></iframe>
+                </div>
+                <div class="stream-info">
+                    <h3>INSTINCT SKILLS TV</h3>
+                    <p class="status">EN VIVO: PRÁCTICA DE EQUIPO</p>
+                </div>
+            </div>
+
+            <!-- Team Members -->
+            <h2 class="sub-title">STREAMS DEL SQUAD</h2>
+            <div class="stream-grid">
+
+                <!-- Player 1 -->
+                <div class="stream-card">
+                    <div class="mini-stream-wrapper">
+                        <iframe
+                            src="https://player.twitch.tv/?channel=shroud&parent=instinctskills.com&parent=localhost&parent=127.0.0.1&muted=true"
+                            allowfullscreen="true" scrolling="no" height="100%" width="100%"></iframe>
+                    </div>
+                    <div class="stream-info">
+                        <h3>VIPER</h3>
+                        <p class="role">DUELISTA</p>
+                    </div>
+                </div>
+
+                <!-- Player 2 -->
+                <div class="stream-card">
+                    <div class="mini-stream-wrapper">
+                        <iframe
+                            src="https://player.twitch.tv/?channel=tenz&parent=instinctskills.com&parent=localhost&parent=127.0.0.1&muted=true"
+                            allowfullscreen="true" scrolling="no" height="100%" width="100%"></iframe>
+                    </div>
+                    <div class="stream-info">
+                        <h3>PHANTOM</h3>
+                        <p class="role">CONTROLADOR</p>
+                    </div>
+                </div>
+
+                <!-- Player 3 -->
+                <div class="stream-card">
+                    <div class="mini-stream-wrapper">
+                        <iframe
+                            src="https://player.twitch.tv/?channel=mixwell&parent=instinctskills.com&parent=localhost&parent=127.0.0.1&muted=true"
+                            allowfullscreen="true" scrolling="no" height="100%" width="100%"></iframe>
+                    </div>
+                    <div class="stream-info">
+                        <h3>SPECTRE</h3>
+                        <p class="role">INICIADOR</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-logo">INSTINCT<span class="highlight">SKILLS</span></div>
+            <p>&copy; 2024 Instinct Skills Esports. Todos los derechos reservados.</p>
+            <div class="footer-socials">
+                <a href="https://x.com/InstinctSkiIIs?t=hYxFiqqAWqtx6piHvBcwcg&s=09"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/instinctskillscl?utm_source=qr&igsh=MTh2OGdjZWNrYjdxdg=="><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://discord.gg/gdd8NXq57Y"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
